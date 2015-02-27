@@ -1,0 +1,8 @@
+function add(X,Y)=
+	if X=0 
+	then return Y
+	else return (1+add(X-1,Y)).
+
+X:=add(4,5);
+print X
+

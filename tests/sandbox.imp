@@ -1,0 +1,4 @@
+X:=4;
+if ~~~3=5
+then X:=5;
+print X

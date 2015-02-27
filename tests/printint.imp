@@ -1,0 +1,7 @@
+function printint(X)=
+	INT:=X;
+	print INT;
+	return 1.
+
+
+PRINT:=printint(10)

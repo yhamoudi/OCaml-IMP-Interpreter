@@ -1,0 +1,4 @@
+X:=10;
+while X<20 do
+	(print X;
+	X:=X+1)

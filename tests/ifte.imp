@@ -1,0 +1,35 @@
+function ifte(X)=
+	if X>0
+	then if X>5
+	 	 then if X>10
+		   	  then if X>15
+			       then return 0
+		  	   	   else return 1
+		  	  else return 2
+		 else return 3
+	else return 4.
+
+X:=-8;
+print X;
+RES:=ifte(X);
+print RES;
+
+X:=1;
+print X;
+RES:=ifte(X);
+print RES;
+
+X:=6;
+print X;
+RES:=ifte(X);
+print RES;
+
+X:=11;
+print X;
+RES:=ifte(X);
+print RES;
+
+X:=16;
+print X;
+RES:=ifte(X);
+print RES
