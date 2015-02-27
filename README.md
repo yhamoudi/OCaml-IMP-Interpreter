@@ -5,11 +5,11 @@ PROGRAMMATION - DM2 : Interprète IMP
 
 ## SOMMAIRE
 
-0 - Exécution de l'interprète
-1 - Programmes tests
-2 - Messages d'erreurs
-3 - Règles de priorité
-4 - Fonctions
+ * 0 - Exécution de l'interprète
+ * 1 - Programmes tests
+ * 2 - Messages d'erreurs
+ * 3 - Règles de priorité
+ * 4 - Fonctions
 
 
 0 - Exécution de l'interprète
