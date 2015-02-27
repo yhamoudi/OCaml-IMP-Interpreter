@@ -128,8 +128,8 @@ print W
 
 ### Explications du fonctionnement
 
-Lors d'une déclaration de fonction à 1 ou 0 arguments, on crée 1 ou 2 arguments artificiels supplémentaires (nommés "HiddenVar") pour obtenir une fonction à 2 arguments.
-Lorsqu'une fonction à 1 ou 0 arguments est appellées, on lui ajoute 1 ou 2 Var "HiddenVar" en arguments pour obtenir un appel de fonction avec 2 arguments.
+- Lors d'une déclaration de fonction à 1 ou 0 arguments, on crée 1 ou 2 arguments artificiels supplémentaires (nommés "HiddenVar") pour obtenir une fonction à 2 arguments.
+- Lorsqu'une fonction à 1 ou 0 arguments est appellées, on lui ajoute 1 ou 2 Var "HiddenVar" en arguments pour obtenir un appel de fonction avec 2 arguments.
 
 La gestion des fonctions se fait de la manière suivante : 
 
