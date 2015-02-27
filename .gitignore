@@ -1,2 +1,16 @@
-*~
 imp
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+*~
+src/_build/*
+*.native
+*.byte
+/main
+/gen
