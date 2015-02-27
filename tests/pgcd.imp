@@ -1,17 +1,17 @@
 function modulo(X,Y)=
-	if X<Y
-	then return X
-	else return modulo(X-Y,Y).
+    if X<Y
+    then return X
+    else return modulo(X-Y,Y).
 
 function pgcd (X,Y)=
-	if X=Y
-	then return X
-	else if X<Y
-		 then return pgcd(Y,X)
-		 else (RESTE:=modulo(X,Y);
-			   if RESTE=0
-			   then return Y
-			   else return pgcd (Y,RESTE)).
+    if X=Y
+    then return X
+    else if X<Y
+         then return pgcd(Y,X)
+         else (RESTE:=modulo(X,Y);
+               if RESTE=0
+               then return Y
+               else return pgcd (Y,RESTE)).
 
 A:=9;
 B:=6;

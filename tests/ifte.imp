@@ -1,13 +1,13 @@
 function ifte(X)=
-	if X>0
-	then if X>5
-	 	 then if X>10
-		   	  then if X>15
-			       then return 0
-		  	   	   else return 1
-		  	  else return 2
-		 else return 3
-	else return 4.
+    if X>0
+    then if X>5
+         then if X>10
+              then if X>15
+                   then return 0
+                   else return 1
+              else return 2
+          else return 3
+    else return 4.
 
 X:=-8;
 print X;

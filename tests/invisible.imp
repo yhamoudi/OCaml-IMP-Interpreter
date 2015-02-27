@@ -1,6 +1,6 @@
 function invisible()=
-	return 4;
-	X:=6.
+    return 4;
+    X:=6.
 
 X:=invisible();
 print X

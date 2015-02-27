@@ -1,7 +1,7 @@
 function modulo(X,Y)=
-	if X<Y
-	then return X
-	else return modulo(X-Y,Y).
+    if X<Y
+    then return X
+    else return modulo(X-Y,Y).
 
 A:=8;
 B:=3;

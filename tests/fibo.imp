@@ -1,9 +1,9 @@
 function fibo(X)=
-	if X=0
-	then return 0
-	else if X=1
-		 then return 1
-		 else return fibo(X-1)+fibo(X-2).
+    if X=0
+    then return 0
+    else if X=1
+         then return 1
+         else return fibo(X-1)+fibo(X-2).
 
 INT:=12;
 print INT;

@@ -1,7 +1,7 @@
 function power(X,Y)=
-	if Y=0
-	then return 1
-	else return X*power(X,Y-1).
+    if Y=0
+    then return 1
+    else return X*power(X,Y-1).
 
 Z:=power(3,2);
 print Z

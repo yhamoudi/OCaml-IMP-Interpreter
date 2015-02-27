@@ -1,31 +1,29 @@
 function divise(X,Y)=
-	if (Y*(X/Y)=X)
-	then return 1
-	else return 0.
+    if (Y*(X/Y)=X)
+    then return 1
+    else return 0.
 
 function prime(X)=
-	if ~(X=1)
-	then if X=2
-		 then return 1
-		 else (TEMP:=2;
-			   STOP:=0;
-			   while (TEMP < X and STOP = 0) do
-					if (divise(X,TEMP)=1)
-					then STOP:=1
-					else TEMP:=TEMP+1;
-			   if TEMP=X
-			   then return 1
-			   else return 0).
+    if ~(X=1)
+    then if X=2
+         then return 1
+         else (TEMP:=2;
+               STOP:=0;
+               while (TEMP < X and STOP = 0) do
+                    if (divise(X,TEMP)=1)
+                    then STOP:=1
+                    else TEMP:=TEMP+1;
+               if TEMP=X
+               then return 1
+               else return 0).
 
 
 function printprime(X)=
-	COMP:=2;
-	while (COMP<X) do
-		(if prime(COMP)=1
-		then print COMP;
-		COMP:=COMP+1);
-	return 1.
-
+    COMP:=2;
+    while (COMP<X) do
+        (if prime(COMP)=1
+        then print COMP;
+        COMP:=COMP+1);
+    return 1.
 
 C:=printprime(20)
-
