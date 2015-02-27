@@ -9,7 +9,7 @@ imp
 *.cmxs
 *.cmxa
 *~
-src/_build/*
+_build/*
 *.native
 *.byte
 /main
