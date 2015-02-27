@@ -136,16 +136,16 @@ La gestion des fonctions se fait de la manière suivante :
   * I - le début du programme donné en entrée est parcouru et l'ensemble des fonctions définies sont stockées sous forme de 4-uplets dans une liste. Un 4-uplet (f,x0,x1,c) contient le nom de la fonction (f), ses deux arguments (x0 et x1) et son corps (c).
 
   * II - lorsqu'une fonction est appelée avec en argument les expressions arithmétiques a0 et a1 :
-    - 1* on récupère la description (f,x0,x1,c) de la fonction stockée en mémoire
-    - 2* on vérifie que si a0=Var "HiddenVar" alors x0="HiddenVar", et réciproquement. On fait de même pour a1 et x1. Si ce n'est pas le cas, on a détecté une erreur dans le nombre d'arguments et on lève une exception.
-    - 3* a0 et a1 sont évalués en 2 entiers k0 et k1
-    - 4* on remplace partout dans c : x0 par k0 et x1 par k1.
-    - 5* on évalue c, en prenant garde de stopper l'évaluation dès qu'un return est atteint
+    - 1/ on récupère la description (f,x0,x1,c) de la fonction stockée en mémoire
+    - 2/ on vérifie que si a0=Var "HiddenVar" alors x0="HiddenVar", et réciproquement. On fait de même pour a1 et x1. Si ce n'est pas le cas, on a détecté une erreur dans le nombre d'arguments et on lève une exception.
+    - 3/ a0 et a1 sont évalués en 2 entiers k0 et k1
+    - 4/ on remplace partout dans c : x0 par k0 et x1 par k1.
+    - 5/ on évalue c, en prenant garde de stopper l'évaluation dès qu'un return est atteint
 
- - L'étape I est effectuée par la fonction build_fmem située dans memory.ml
- - L'étape II-1 est effectuée par la fonction lit_memo située dans memory.ml
- - L'étape II-2 est effectuée au début de la fonction feval située dans execute.ml
- - L'étape II-3 est effectuée dans la fonction feval située dans execute.ml
- - L'étape II-4 est effectuée par la fonction subst_fonction située dans memory.ml
- - L'étape II-5 est effectuée dans la fonction feval située dans execute.ml
+- L'étape I est effectuée par la fonction build_fmem située dans memory.ml
+- L'étape II-1 est effectuée par la fonction lit_memo située dans memory.ml
+- L'étape II-2 est effectuée au début de la fonction feval située dans execute.ml
+- L'étape II-3 est effectuée dans la fonction feval située dans execute.ml
+- L'étape II-4 est effectuée par la fonction subst_fonction située dans memory.ml
+- L'étape II-5 est effectuée dans la fonction feval située dans execute.ml
 
