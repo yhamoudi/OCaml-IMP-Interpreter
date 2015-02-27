@@ -40,12 +40,12 @@ Des programmes tests figurent dans le dossier tests. Pour exécuter prime.imp pa
 
 Ci-dessous, les explications de quelques messages d'erreur courants : 
 
- - Fatal error: exception Parsing.Parse_error     -> le programme contient une erreur syntaxique
- - Fatal error: exception Execute.ReturnNotFound  -> une fonction n'a retourné aucun entier
- - Fatal error: exception Execute.FunctionMisUsed -> un nombre incorrect d'arguments a été utilisé dans une fonction
- - Fatal error: exception Execute.DivBy0          -> une division par 0 est survenue
- - Fatal error: exception Memory.FunUnknown	      -> tentative d'utilisation d'une fonction non définie
- - Fatal error: exception Memory.VarUnknown	      -> tentative d'utilisation d'une variable non définie
+ - _Fatal error: exception Parsing.Parse_error_     -> le programme contient une erreur syntaxique
+ - _Fatal error: exception Execute.ReturnNotFound_  -> une fonction n'a retourné aucun entier
+ - _Fatal error: exception Execute.FunctionMisUsed_ -> un nombre incorrect d'arguments a été utilisé dans une fonction
+ - _Fatal error: exception Execute.DivBy0_          -> une division par 0 est survenue
+ - _Fatal error: exception Memory.FunUnknown_       -> tentative d'utilisation d'une fonction non définie
+ - _Fatal error: exception Memory.VarUnknown_       -> tentative d'utilisation d'une variable non définie
 
 
 3 - Règles de priorité
